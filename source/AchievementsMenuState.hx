@@ -69,6 +69,8 @@ class AchievementsMenuState extends MusicBeatState
 		add(descText);
 		changeSelection();
 
+		addVirtualPad("UP_DOWN", "A_B");
+
 		super.create();
 	}
 
